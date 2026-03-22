@@ -1,8 +1,9 @@
 export const reasons = [
-  'I love the way you make even ordinary days feel softer, brighter, and worth remembering.',
-  'I love how your laugh changes the whole mood of a room and somehow always pulls me in with it.',
-  'I love how being with you feels exciting and peaceful at the same time.',
-  'I love the way you care so deeply, even in the little things that most people would miss.',
-  'I love how you make life feel lighter just by being beside me.',
-  'I love that so many of my favorite memories feel golden because you are in them.',
+  'I love the way you because you are such a loving girlfriend and you make me feel so loved.',
+  'I love your laugh, it makes me smile just thinking about it.',
+  'I love how being with you calms my brain down, I always feel at peace',
+  'I love your eyes, you look at me so softly and I feel so loved.',
+  'I love you because you make me feel blessed for having a girlfriend as loving and loyal as you.',
+  'I love you because you have made this the best year of my life, every day since I have met you has been better than it was before.',
+  'I love you because you are so determined and it makes me confident that we can get through anything together.',
 ];

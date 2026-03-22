@@ -4,7 +4,13 @@ function IntroScreen({ onEnter }) {
       <div className="relative mx-auto flex w-full max-w-4xl flex-col items-center text-center">
         <div className="rounded-[2rem] border border-white/8 bg-[linear-gradient(180deg,rgba(29,12,25,0.68),rgba(13,7,15,0.48))] px-6 py-10 shadow-[0_24px_110px_rgba(3,1,5,0.78)] ring-1 ring-pink-100/10 backdrop-blur-xl sm:px-10 sm:py-14">
           <p className="font-script text-4xl leading-tight text-[#ff9ab1] drop-shadow-[0_12px_34px_rgba(16,3,9,0.92)] sm:text-6xl lg:text-7xl">
-            Happy anniversary my love. Thank you for making this the best year of my life
+            ❤️❤️❤️❤️❤️❤️❤️❤️❤️
+          </p>
+          <p className="font-script text-4xl leading-tight text-[#ff9ab1] drop-shadow-[0_12px_34px_rgba(16,3,9,0.92)] sm:text-6xl lg:text-7xl">
+             Happy anniversary my love. Thank you for making this the best year of my life 
+          </p>
+                    <p className="font-script text-4xl leading-tight text-[#ff9ab1] drop-shadow-[0_12px_34px_rgba(16,3,9,0.92)] sm:text-6xl lg:text-7xl">
+            ❤️❤️❤️❤️❤️❤️❤️❤️❤️
           </p>
           <button
             type="button"

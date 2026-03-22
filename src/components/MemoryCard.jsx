@@ -6,13 +6,12 @@ function MemoryCard({ memory, index, total }) {
           className="rounded-[1.5rem] border border-white/8 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03))] p-4 md:p-6"
           style={{ rotate: `${memory.rotation}deg` }}
         >
-          <div
-            className="flex aspect-[21/9] items-end rounded-[1.15rem] border border-white/8 bg-[linear-gradient(180deg,var(--tw-gradient-stops))] from-rose-100 via-pink-200 to-fuchsia-300 p-5 shadow-inner md:p-8"
-            aria-label={memory.title}
-          >
-            <div className="w-full rounded-[1rem] border border-white/30 bg-black/24 px-4 py-3 text-left backdrop-blur-[2px]">
-              <p className="text-xs uppercase tracking-[0.3em] text-white/72">{memory.image}</p>
-            </div>
+          <div className="flex overflow-hidden rounded-[1.15rem] border border-white/8 bg-black/35 shadow-inner">
+            <img
+              src={memory.image}
+              alt={memory.title}
+              className="block aspect-[21/9] w-full object-contain object-center"
+            />
           </div>
           <div className="mx-auto max-w-4xl px-2 pb-2 pt-6 md:px-4">
             <p className="text-xs uppercase tracking-[0.35em] text-pink-200/62">{memory.date}</p>
@@ -21,11 +20,7 @@ function MemoryCard({ memory, index, total }) {
           </div>
         </div>
       </div>
-      <div className="mt-5 text-center">
-        <p className="text-xs uppercase tracking-[0.38em] text-pink-100/48">
-          Focused Memory {index + 1}/{total}
-        </p>
-      </div>
+
     </article>
   );
 }

@@ -34,7 +34,7 @@ function App() {
                 onClick={() => setCurrentPage('memory')}
                 className="group inline-flex items-center gap-3 rounded-full border border-pink-100/18 bg-[linear-gradient(135deg,_#902759,_#d95a89)] px-6 py-3 text-sm font-semibold uppercase tracking-[0.28em] text-rose-50 shadow-[0_16px_38px_rgba(48,7,26,0.48)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_44px_rgba(48,7,26,0.6)] focus:outline-none focus:ring-2 focus:ring-pink-200/60"
               >
-                Enter the film reel
+                Our time together
                 <span className="transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true">
                   →
                 </span>

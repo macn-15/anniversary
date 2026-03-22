@@ -4,7 +4,7 @@ const HOUR = 60 * MINUTE;
 const DAY = 24 * HOUR;
 const WEEK = 7 * DAY;
 
-export const relationshipStart = new Date(2025, 2, 22, 22, 23, 0);
+export const relationshipStart = new Date(2025, 2, 22, 22, 0, 0);
 
 function addLocal(date, values) {
   const next = new Date(date);

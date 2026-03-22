@@ -1,50 +1,41 @@
+const feb3Anniversary = new URL("../../img/Feb_3_anniversary.JPG", import.meta.url).href;
+const weekndJune7 = new URL("../../img/weeknd_june_07.PNG", import.meta.url).href;
+const madridGameJuly9 = new URL("../../img/madrid_game_july_09.JPG", import.meta.url).href;
+const lanternDayOctober4 = new URL("../../img/lantern_day_october_4.JPG", import.meta.url).href;
+
+
 export const memories = [
+
   {
     id: 1,
-    title: 'The Night Everything Felt Easy',
-    date: 'April 14, 2025',
-    caption: 'Use this space for one of those memories where the whole night felt effortless and you both left knowing it meant something.',
-    image: 'Add your photo here',
-    rotation: -1.5,
-  },
-  {
-    id: 2,
-    title: 'The Laugh We Still Talk About',
-    date: 'May 30, 2025',
-    caption: 'Replace this with a moment that still comes up because it sounded exactly like the two of you and still makes you smile.',
-    image: 'Add your photo here',
+    title: "The Weeknd Concert",
+    date: "June 7, 2025",
+    caption: "I'm glad we were able to go to this concert twice my love. I know how much you were looking forward to it.",
+    image: weekndJune7,
     rotation: 1,
   },
   {
-    id: 3,
-    title: 'A Quiet Day That Became Important',
-    date: 'July 18, 2025',
-    caption: 'This can be one of the simple days that mattered more than it should have, just because you were together for it.',
-    image: 'Add your photo here',
+    id: 2,
+    title: "Club World Cup",
+    date: "July 9, 2025",
+    caption: "Going to this game with you meant so much to me my love. It was such an amazing gesture by you my love and I truly appreciate it baby",
+    image: madridGameJuly9,
     rotation: -1,
   },
   {
-    id: 4,
-    title: 'One of Our Favorite Adventures',
-    date: 'September 7, 2025',
-    caption: 'Use this for a trip, a drive, a walk, or any little adventure that deserves to feel cinematic when she sees it.',
-    image: 'Add your photo here',
+    id: 3,
+    title: "Lantern Day",
+    date: "October 4, 2025",
+    caption: "This night felt like a dream baby. I already feel like I'm living a movie with you and this night felt like a movie scene.",
+    image: lanternDayOctober4,
     rotation: 1.3,
   },
-  {
-    id: 5,
-    title: 'The Moment That Felt Like Home',
-    date: 'November 22, 2025',
-    caption: 'Save this one for the memory that made you feel calm, sure, and grateful all at the same time.',
-    image: 'Add your photo here',
-    rotation: -0.8,
-  },
-  {
-    id: 6,
-    title: 'A Frame That Says Everything',
-    date: 'February 14, 2026',
-    caption: 'Leave a final slot for a photo that captures the feeling of your year together in a single frame.',
-    image: 'Add your photo here',
-    rotation: 0.9,
+    {
+    id: 4,
+    title: "Anniversary",
+    date: "February 3, 2026",
+    caption: "The tacos were good af my love",
+    image: feb3Anniversary,
+    rotation: -1.5,
   },
 ];
